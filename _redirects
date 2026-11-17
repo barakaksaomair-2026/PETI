@@ -1,0 +1,9 @@
+# Cloudflare Pages redirects
+# Canonical host: send the apex domain to www
+https://baraka-ksa.com/*   https://www.baraka-ksa.com/:splat   301
+
+# Friendly deep links into the one-page site
+/services   /#services   301
+/projects   /#projects   301
+/about      /#about      301
+/contact    /#contact    301
